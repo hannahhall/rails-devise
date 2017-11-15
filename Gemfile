@@ -1,8 +1,8 @@
 source 'https://rubygems.org'
-ruby '2.3.1'
-gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
+ruby '2.4.2'
+gem 'rails', '~> 5.1.4'
 gem 'sqlite3'
-gem 'puma', '~> 3.0'
+gem 'puma', '~> 3.10'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.2'
@@ -28,7 +28,7 @@ group :development do
   gem 'spring-commands-rspec'
 end
 group :development, :test do
-  gem 'factory_girl_rails'
+  gem 'factory_bot_rails'
   gem 'faker'
   gem 'rspec-rails'
 end
